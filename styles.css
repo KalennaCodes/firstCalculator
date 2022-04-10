@@ -31,7 +31,7 @@ body {
     padding-right: 15px;
     padding-top: 10px;
     text-align: right;
-    overflow-x: auto;
+    
     font-size: 46px;
 }
 
@@ -53,21 +53,21 @@ button:hover {
     background-color: #BD6497;
 }
 
-.all-clear {
+#all-clear {
     background-color: #FB8FCC;
     color: white;
 }
 
-.equal {
+#equal {
     background-color: cornflowerblue;
     height: 100%;
     grid-row-start: 2;
-    grid-row-end: 6;
+    grid-row-end: 5;
     grid-column-start: 4;
     grid-column-end: 5;
 }
 
-.equal-sign:hover {
+#equal-sign:hover {
     background-color: #C5B8BF;
   }
 

@@ -11,7 +11,7 @@
 <body>
 <div class="calculator">
     <!--*calculator screen -->
-    <input type="text" class="screen" id="">
+    <input type="text" class="screen" value="" disabled />
     <!-- Buttons-->
   <div class="calc-buttons">
 
@@ -24,6 +24,7 @@
         <button type="button" value="8">8</button>
         <button type="button" value="9">9</button>
 
+
         <button type="button" value="4">4</button>
         <button type="button" value="5">5</button>
         <button type="button" value="6">6</button>
@@ -34,11 +35,13 @@
 
         <button type="button" value="0">0</button>
         <button type="button" class="decimal" value=".">.</button>
-        <button type="button" class="all-clear" value="all-clear">AC</button>
+        <button type="button" id="delete">Del</button>
+        <button type="button" id="all-clear" value="all-clear">AC</button>
+        
 
-        <button type="button" class="equal" value="=">=</button>
+        <button type="button" id="equal" value="=">=</button>
     </div>
 </div>    
-<sript src="calc.js"></sript>  
+<script src="app.js"></script>  
 </body>
 </html>
