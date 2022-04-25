@@ -29,5 +29,13 @@ keys.addEventListener('click', (event) => {
         console.log('decimal', target.value);
         return;
     }
-    
-})
+    if (target.classList.contins('all-clear')) {
+        console.log('clear', target.value);
+        return;
+    }
+    if (target.classList.contains('delete')) {
+        console.log('delete', target.value);
+        return;
+    }
+    console.log('digit', target.value);
+});
